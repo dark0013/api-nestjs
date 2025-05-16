@@ -5,9 +5,9 @@ services:
     image: postgres:15
     container_name: postgres_db
     environment:
-      POSTGRES_USER: myuser
-      POSTGRES_PASSWORD: mypassword
-      POSTGRES_DB: mydatabase
+      POSTGRES_USER: DARK0013
+      POSTGRES_PASSWORD: ROOT1234
+      POSTGRES_DB: NEST_DB
     ports:
       - "5499:5432"
     volumes:
